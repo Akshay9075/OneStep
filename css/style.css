@@ -92,14 +92,6 @@ a:focus {
     height: 100%;
 }
 
-.header1 {
-    position: relative;
-    width: 1000px;
-    /* padding: 15px 0 0 0; */
-    background: #00539C;
-    height: 210px;
-}
-
 .header.home {
     margin-bottom: 45px;
     background: linear-gradient(rgba(2, 24, 44, 0.6), rgba(3, 32, 58, 0.5), rgba(1, 19, 34, 0.6)), url(../img/header.jpg);
@@ -2034,6 +2026,7 @@ a:focus {
 .section-header[data-aos] {
   will-change: opacity, transform;
 }
+
 
 
 
