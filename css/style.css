@@ -282,6 +282,15 @@ a:focus {
     }
 }
 
+
+@media (max-width: 992px) {
+    .number {
+        font-size: 21px;
+    }
+    
+}
+
+
 .header .hero {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -2028,6 +2037,7 @@ a:focus {
 .section-header[data-aos] {
   will-change: opacity, transform;
 }
+
 
 
 
