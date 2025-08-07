@@ -278,6 +278,7 @@ a:focus {
     .header .navbar .btn {
 /*         display: none; */
         border:1.5px solid #ffd664;
+        margin:10px 0px 10px 0px ;
     }
 }
 
@@ -2027,6 +2028,7 @@ a:focus {
 .section-header[data-aos] {
   will-change: opacity, transform;
 }
+
 
 
 
