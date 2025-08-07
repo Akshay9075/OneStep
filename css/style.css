@@ -276,7 +276,7 @@ a:focus {
     }
     
     .header .navbar .btn {
-        display: none;
+/*         display: none; */
     }
 }
 
@@ -2026,6 +2026,7 @@ a:focus {
 .section-header[data-aos] {
   will-change: opacity, transform;
 }
+
 
 
 
