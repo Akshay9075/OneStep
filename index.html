@@ -115,11 +115,11 @@
                         <div class="col-md-5">
                             <div class="form" data-aos="fade-left" data-aos-delay="400">
                                 <h3 class="number">Get A Quote <i class="fa fa-phone-alt text-primary ml-4"></i> <span class="text-warning"><b>9011168858</b></span></h3>
-                                <form>
-                                    <input class="form-control" type="text" placeholder="Your Name">
-                                    <input class="form-control" type="text" placeholder="Mobile Number">
+                                <form class="quick_web_contact_form">
+                                    <input class="form-control" type="text" placeholder="Your Name" name="name" id="name" required>
+                                    <input class="form-control" type="number" placeholder="Mobile Number" name="mobile" id="mobile" required>
                                     <div class="control-group">
-                                        <select class="custom-select">
+                                        <select class="custom-select" name="email" id="email">
                                             <option selected>Choose a service</option>
                                             <option value="1">Occupied apartment</option>
                                             <option value="2">Unfurnished apartment</option>
@@ -127,7 +127,7 @@
                                         </select>
                                     </div>
                                     <div class="control-group">
-                                        <select class="custom-select">
+                                        <select class="custom-select" name="home">
                                             <option selected>Choose a Home</option>
                                             <option value="1">1 BHK</option>
                                             <option value="2">2 BHK</option>
@@ -136,7 +136,7 @@
                                             <option value="5">5 BHK</option>
                                         </select>
                                     </div>
-                                    <textarea class="form-control" placeholder="Comment"></textarea>
+                                    <textarea class="form-control" placeholder="Comment" name="comment"></textarea>
                                     <button class="btn btn-block">Get A Quote</button>
                                 </form>
                             </div>
@@ -735,6 +735,7 @@
         <!-- WhatsApp Floating Button End -->
     </body>
 </html>
+
 
 
 
